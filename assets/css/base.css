@@ -1,0 +1,41 @@
+:root {
+  /* Colors */
+  --color-1: #3F3D56;
+  --color-2: #EE24FF;
+  --color-3: #828282;
+  --color-4: #ECEFF2;
+
+  /* Font-families */
+  --font-family-1: 'Open Sans', sans-serif;
+  --font-family-2: 'Dosis', sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-image: url("../img/wave.jpg");
+  background-position: center bottom;
+  background-repeat: no-repeat;
+  display: flex;
+    align-items: center;
+  font-family: var(--font-family-1);
+  font-size: 1.6rem;
+  min-height: 100vh;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+b {
+  font-weight: 700;
+}
